@@ -3,8 +3,9 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Shop from "./pages/Shop/Shop";
 import Contact from "./pages/Contact/Contact";
-import Cart from "./pages/Cart/Cart";
+
 import { Route, Routes } from "react-router-dom";
+import { Cart } from "./pages/Cart/Cart";
 
 function App() {
   return (
